@@ -9,6 +9,15 @@ Essential may analyze sentiment about:
  3) Competitors
  4) Reputation
 
+1) Python 2.6 or higher
+ 2) Java
+ 3) NLTK 2.0     http://www.nltk.org
+ 4) NumPy        http://numpy.scipy.org
+ 5) SentiWordNet http://sentiwordnet.isti.cnr.it
+ 6) Sentiment_classifier 0.5 https://pypi.python.org/pypi/sentiment_classifier
+ 7) LIBSVM :https://github.com/cjlin1/libsvm
+ 
+ 
 # Prerequisites
  1) Hadoop
  2) Hive

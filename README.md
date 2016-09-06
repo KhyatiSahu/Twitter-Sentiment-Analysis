@@ -4,11 +4,11 @@ It is used to understand how the public feels about something at a particular mo
  how those opinion change over time
 
 Essential may analyze sentiment about:
-
- 1) Product
- 2) Service
- 3) Competitors
- 4) Reputation
+ 
+  * Product
+  * Service
+  * Competitors
+  * Reputation
  
 # Prerequisites
 

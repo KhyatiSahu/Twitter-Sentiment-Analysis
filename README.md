@@ -4,21 +4,14 @@ It is used to understand how the public feels about something at a particular mo
  how those opinion change over time
 
 Essential may analyze sentiment about:
+
  1) Product
  2) Service
  3) Competitors
  4) Reputation
-
-1) Python 2.6 or higher
- 2) Java
- 3) NLTK 2.0     http://www.nltk.org
- 4) NumPy        http://numpy.scipy.org
- 5) SentiWordNet http://sentiwordnet.isti.cnr.it
- 6) Sentiment_classifier 0.5 https://pypi.python.org/pypi/sentiment_classifier
- 7) LIBSVM :https://github.com/cjlin1/libsvm
- 
  
 # Prerequisites
+
  1) Hadoop
  2) Hive
  3) Flume
@@ -28,6 +21,7 @@ Essential may analyze sentiment about:
  7) Twitter App 
 
 # Steps For Sentiment Analysis
+
  1) Load Data to Hive tables 
  2) Filteration – remove URL links (e.g. http://example.com), Twitter user names (e.g. @alex – with symbol @ indicating a user name),
  3) Tokenization –  Segment text by splitting it by spaces and punctuation marks, and form a bag of words.
@@ -35,6 +29,7 @@ Essential may analyze sentiment about:
  5) Comparing with Sentiword/Afinn Dictionary –we compare the articles with Dictionary to predict that the word is negative,positive or neutral.
 
 # TODO
+ 
  1) Add Visualization Tools.
  2) Make a Gui Version.
  3) Apply Machine Learning Techniques.
